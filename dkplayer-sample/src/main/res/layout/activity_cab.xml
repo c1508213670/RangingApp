@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/switch_button_right"
+        android:text="舵机停止"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button10"  />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_right"
+        android:text="舵机转动"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/switch_button_right"
+        android:text="0米"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button12"  />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_left_checked"
+        android:text="障碍物距离 "
+        android:textColor="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button6"
+/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/switch_button_right"
+        android:text="0°"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_left_checked"
+        android:text="云台转动角度"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button12"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="@+id/button12"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/switch_button_left_checked"
+        android:text="告警距离设置"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_right"
+        android:text="0米"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_left_checked"
+        android:text="附近电场显示"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_right"
+        android:text="带电"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2"/>
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_right"
+        android:text=" 发起连接 "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button10"/>
+    <Button
+        android:id="@+id/button10"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_button_right"
+        android:text=" 断开连接 "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button6"  />
+
+
+    <com.dueeeke.videoplayer.player.VideoView
+        android:id="@+id/surfaceView"
+        android:layout_width="585dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.dueeeke.videoplayer.player.DashBoard
+        android:layout_width="585dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/dash"
+        />
+
+    <ImageView
+        android:id="@+id/circle_light"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="28dp"
+        android:src="@drawable/red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_light"
+        app:layout_constraintEnd_toEndOf="@+id/circle_light"
+        app:layout_constraintStart_toStartOf="@+id/circle_light"
+        app:layout_constraintTop_toTopOf="@+id/circle_light"
+        app:srcCompat="@drawable/red" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/center_light"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/surfaceView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/surfaceView"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/surfaceView"-->
+<!--        app:srcCompat="@drawable/green_obstacles_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/center_dark"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/green_obstacles"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/center_light"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/center_light"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/center_light"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/center_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/left_light"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/center_light"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/surfaceView"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/surfaceView"-->
+<!--        app:srcCompat="@drawable/green_obstacles_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/left_dark"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/green_obstacles"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/left_light"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/left_light"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/left_light"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/left_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/right_dark"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/green_obstacles"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/right_light"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/right_light"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/right_light"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/right_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/right_light"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/surfaceView"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/center_light"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/surfaceView"-->
+<!--        app:srcCompat="@drawable/green_obstacles_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/above_light"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/center_light"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/surfaceView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/surfaceView"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/surfaceView"-->
+<!--        app:srcCompat="@drawable/green_obstacles_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/above_dark"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/green_obstacles"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/center_dark"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/above_light"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/above_light"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/above_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/below_light"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/surfaceView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/surfaceView"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/center_light"-->
+<!--        app:srcCompat="@drawable/green_obstacles_light" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/below_dark"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/green_obstacles"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/below_light"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/below_light"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/below_light"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/center_dark" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
